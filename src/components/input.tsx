@@ -16,8 +16,8 @@ export default function Input({
     return (
         <div>
 
-            <p>{title}</p>
-            <div className="relative flex items-center w-sm border border-gray-300 rounded py-3 px-4">
+            <p className="pb-2">{title}</p>
+            <div className="relative flex items-center w-full border border-gray-300 rounded py-3 px-4">
 
                 {icon && (
                     <Icon

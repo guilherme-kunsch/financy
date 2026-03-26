@@ -11,7 +11,7 @@ import User from "./assets/user-round-plus.svg?react";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 gap-6">
-      <img src={logo} alt="logo" />
+      <img className="pb-6" src={logo} alt="logo" />
 
       <Container>
         <Text

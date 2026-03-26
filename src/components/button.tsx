@@ -2,7 +2,7 @@ import Icon from "./icon"
 import { cva, type VariantProps } from "class-variance-authority";
 
 export const buttonVariants = cva(
-    "w-sm py-3 px-4 rounded cursor-pointer font-medium flex items-center justify-center gap-2",
+    "w-full py-3 px-4 rounded cursor-pointer font-medium flex items-center justify-center gap-2",
     {
         variants: {
             variant: {
